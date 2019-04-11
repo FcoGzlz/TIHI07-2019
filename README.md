@@ -1,5 +1,5 @@
 # TIHI07-2019
-### Introducción
+*### Introducción*
 Esta es una guía en la cual se explicará los pasos a seguir para la puesta en marcha de una "WorkStation". Para poder realizar estos pasos e implementar nuestra "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir:
 
 1. Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal).
