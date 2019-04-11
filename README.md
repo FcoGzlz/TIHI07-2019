@@ -16,7 +16,7 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
    * Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el siguiente comando:
     
-          ip a
+          # ip a
    * Esto nos permitirá saber el nombre de nuestra interfaz, así como su estado 
 
 
