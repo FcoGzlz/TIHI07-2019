@@ -11,7 +11,8 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
 7. Crear un test Java para comprobar la conexión de la Base de Datos.
 -----------------------------------------------------------------------------------------------------------------------------------
 
-1. hola como estas
+1. Hola como estas
+
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
    * Primero levantaremos la interfaz ip de nuestro centOS, para ello en la ventana de comandos, introduciremos el comando *"ip a"*
 
