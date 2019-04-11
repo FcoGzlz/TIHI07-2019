@@ -9,6 +9,7 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
 5. Instalar un IDE (en este caso se instaló NetBeans).
 6. Instalar Postgre SQL versión 9.6 o superioir.
 7. Crear un test Java para comprobar la conexión de la Base de Datos.
+-----------------------------------------------------------------------------------------------------------------------------------
 
 1. hola como estas
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
