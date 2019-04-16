@@ -1,7 +1,6 @@
 # TIHI07-2019
 ### **Introducción**
-Esta es una guía en la cual se explicará los pasos a seguir para la puesta en marcha de una "WorkStation". Para poder realizar estos pasos e implementar nuestra "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir:
-
+Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en marcha de una "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir, luego se detallarà una guìa paso a paso, lac ual cubrirá todos los puntos en la lista:
 1. Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal).
 2. Conectarse a la máquina virtual mediante el servidor ssh.
 3. Desinstalar la versión de Java que viene por defecto en el Sistema e instalar Java de Oracle.
