@@ -25,7 +25,7 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
    
           # yum -y install openssh-server openssh-clients
           
-   * Lo habilitamos para que inicie con el sistema cada vez que apagamos y encendemos.
+   * Lo habilitamos para que inicie con el sistema cada vez que apaguemos y encendamos.
    
           # chkconfig sshd on
           
