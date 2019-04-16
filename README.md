@@ -33,7 +33,7 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
    
           # service sshd restart
    
-   * Ahora descargaremos el programa PUTTY, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+   * Ahora descargaremos el programa PUTTY, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
          
 
