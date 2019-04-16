@@ -14,10 +14,10 @@ Esta es una guía en la cual se explicará los pasos a seguir para la puesta en 
 1. Hola como estas
 
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
-   * Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando *"ip a"*:
+   * Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
     
           # ip a
-   * Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `*ifup*`: 
+   * Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`: 
    
           # ifup enp0s3
           
