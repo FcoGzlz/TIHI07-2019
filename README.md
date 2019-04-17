@@ -34,6 +34,5 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    * Ahora descargaremos el programa **PUTTY**, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
-         
-
-
+   
+   Tratamos de colocar una foto: 
