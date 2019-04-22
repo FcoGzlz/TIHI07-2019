@@ -18,8 +18,8 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
    1.3 Ya instalado el software, procederemos a descargar CentOS 7 minimal, para lo cual utilizaremos nos dirigiremos a: (https://www.centos.org/download/). Seleccionaremos la versión minimal.
 
-   ![1 1](https://user-images.githubusercontent.com/48935510/56478835-f543db80-647f-11e9-927f-6b3dfda776de.jpg)
-
+   <img src="https://user-images.githubusercontent.com/48935510/56478835-f543db80-647f-11e9-927f-6b3dfda776de.jpg" width="800" height="200">
+   
    1.4 Una vez descargados ambos programas, abriremos el VirtualBox y crearemos una máquina nueva.
    
    ![1 4](https://user-images.githubusercontent.com/48935510/56480397-e6f9bd80-6487-11e9-80c9-cfb8980e648c.jpg)
@@ -27,7 +27,6 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    1.5 En las opciones para la creación, seleccionaremos “otros” en el apartado “tipo de sistema”, seleccionaremos el tamaño de disco y la memoria RAM (es recomendable 1GB para no entorpecer el rendimiento de nuestro PC)
 
    1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
-
 
 
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
@@ -54,4 +53,3 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    2.6 Ahora descargaremos el programa **PUTTY**, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
    
-   Tratamos de colocar una foto: 
