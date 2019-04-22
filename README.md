@@ -24,7 +24,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    ![1 4](https://user-images.githubusercontent.com/48935510/56480397-e6f9bd80-6487-11e9-80c9-cfb8980e648c.jpg)
    
-   1.5 En las opciones para la creación, seleccionaremos “otros” en el apartado “tipo de sistema”, seleccionaremos el tamaño de disco y la memoria RAM (es recomendable 1GB para no entorpecer el rendimiento de nuestro PC)
+   1.5 En las opciones para la creación, seleccionaremos “otros” en el apartado “tipo de sistema”, seleccionaremos el tamaño de disco y la memoria RAM (es recomendable 2GB para poder ejecutar programas que se instalarán)
 
    1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
 
@@ -32,26 +32,36 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 2. **Habilitar servicio SSH**<a name ="paso2"></a>
 
-   2.1 Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
+   2.1 Cuando hayamos seleccionado nuestro "ISO", CentOS iniciará y mostrará la terminal del Sistema, por lo que utilizaremos comandos para seguir con el resto de las instalaciones. Primero revisaremos el nombre y estado de nuestra interfaz de red, utilizando el comando `ip a`:
     
           # ip a
-   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`: 
+   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
    
           # ifup enp0s3
           
-   2.3 Una vez levantada la interfaz, habilitaremos el serivicio **SSH**.
+   2.3 Una vez levantada la interfaz, instalaremos el serivicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos este comando:
    
           # yum -y install openssh-server openssh-clients
           
-   2.4 Lo habilitamos para que inicie con el sistema cada vez que apaguemos y encendamos.
+   2.4 Para que el servicio inicie con el sistema, utilizaremos el comando:
    
           # chkconfig sshd on
           
-   2.5 Riniciamos SSHD
+   2.5 Para continuar, reiniciaremos el servicio:
    
           # service sshd restart
    
-   2.6 Ahora descargaremos el programa **PUTTY**, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+   2.6 Ahora descargaremos el software **PUTTY**, que nos permite conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+   
+   2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar.
+   
+   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración/preferencias)
+   
+   2.8 Una vez en la pestaña "configuración/preferencias", cambiaremos a "NAT" nuestra tarjeta de red.
+   ........
+   
+
+3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
    
    
-   Tratamos de colocar una foto: 
+  
