@@ -9,8 +9,8 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 6. **Instalar Postgre SQL versión 9.6 o superioir.**
 7. **Crear un test Java para comprobar la conexión de la Base de Datos.**
 --------------------------------------------------------------------------------------------------------------------------------
-<div id ="id1"/>
-1. **Instalacion de CentOS en Máquina Virtual.**
+<div id ="id1"
+1. **Instalacion de CentOS en Máquina Virtual.**/>
 
    1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
 
