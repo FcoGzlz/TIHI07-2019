@@ -2,7 +2,7 @@
 ### **Introducción**
 Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en marcha de una "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir, luego se detallarà una guìa paso a paso, lac ual cubrirá todos los puntos en la lista:
 1. [**Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal)**](#paso1)
-2. [**Conectarse a la máquina virtual mediante el servidor ssh**](#paso2)
+2. [**Conectarse a la máquina virtual mediante el servicio SSH**](#paso2)
 3. [**Desinstalar la versión de Java que viene por defecto en el Sistema e instalar Java de Oracle**](#paso3)
 4. [**Instalar un ambiente gráfico (en este caso se utilizó Gnome)**](#paso4)
 5. [**Instalar un IDE (en este caso se instaló NetBeans)**](#paso5)
@@ -30,7 +30,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 
 
-2. **Habilitar servidor SSH para conectarse a la máquina virtual**<a name ="paso2"></a>
+2. **Habilitar servicio SSH**<a name ="paso2"></a>
 
    2.1 Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
     
