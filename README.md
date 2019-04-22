@@ -1,7 +1,7 @@
 # TIHI07-2019
 ### **Introducción**
 Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en marcha de una "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir, luego se detallarà una guìa paso a paso, lac ual cubrirá todos los puntos en la lista:
-1. **Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal).**(#1)
+1. **Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal).**(#id1)
 2. **Conectarse a la máquina virtual mediante el servidor ssh**.
 3. **Desinstalar la versión de Java que viene por defecto en el Sistema e instalar Java de Oracle.**
 4. **Instalar un ambiente gráfico (en este caso se utilizó Gnome).**
@@ -10,7 +10,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 7. **Crear un test Java para comprobar la conexión de la Base de Datos.**
 --------------------------------------------------------------------------------------------------------------------------------
 
-1. **Instalacion de CentOS en Máquina Virtual.**<a name="1"></a>
+1. **Instalacion de CentOS en Máquina Virtual.**<a name="id1"></a>
 
    1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
 
