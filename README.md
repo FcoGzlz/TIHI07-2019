@@ -12,36 +12,36 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 1. **Instalacion de CentOS en Máquina Virtual.
 
-   *	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
+   1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
 
-   * Una vez descargado el programa, lo instalaremos.
+   1.2 Una vez descargado el programa, lo instalaremos.
 
-   * Ya instalado el software, procederemos a descargar CentOS 7 minimal, para lo cual utilizaremos nos dirigiremos a: (https://www.centos.org/download/). Seleccionaremos la versión minimal.
+   1.3 Ya instalado el software, procederemos a descargar CentOS 7 minimal, para lo cual utilizaremos nos dirigiremos a: (https://www.centos.org/download/). Seleccionaremos la versión minimal.
 
 ![1 1](https://user-images.githubusercontent.com/48935510/56478835-f543db80-647f-11e9-927f-6b3dfda776de.jpg)
 
 
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
-   * Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
+   2.1 Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
     
           # ip a
-   * Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`: 
+   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`: 
    
           # ifup enp0s3
           
-   * Una vez levantada la interfaz, habilitaremos el serivicio **SSH**.
+   2.3 Una vez levantada la interfaz, habilitaremos el serivicio **SSH**.
    
           # yum -y install openssh-server openssh-clients
           
-   * Lo habilitamos para que inicie con el sistema cada vez que apaguemos y encendamos.
+   2.4 Lo habilitamos para que inicie con el sistema cada vez que apaguemos y encendamos.
    
           # chkconfig sshd on
           
-   * Riniciamos SSHD
+   2.5 Riniciamos SSHD
    
           # service sshd restart
    
-   * Ahora descargaremos el programa **PUTTY**, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+   2.6 Ahora descargaremos el programa **PUTTY**, para poder conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
    
    Tratamos de colocar una foto: 
