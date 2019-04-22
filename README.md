@@ -10,7 +10,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 7. **Crear un test Java para comprobar la conexión de la Base de Datos.**
 --------------------------------------------------------------------------------------------------------------------------------
 
-1. **Instalacion de CentOS en Máquina Virtual.
+1. **Instalacion de CentOS en Máquina Virtual.**
 
    1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
 
@@ -22,6 +22,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 
 2. **Habilitar servidor SSH para conectarse a la máquina virtual**
+
    2.1 Primero levantaremos la interfaz ip de nuestro centOS, para ello en la terminal, insertaremos el comando `ip a`:
     
           # ip a
