@@ -26,7 +26,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    ![1 4](https://user-images.githubusercontent.com/48935510/56480397-e6f9bd80-6487-11e9-80c9-cfb8980e648c.jpg)
    
-   1.5 En las opciones para la creación, seleccionaremos “otros” en el apartado “tipo de sistema”, seleccionaremos el tamaño de disco y la memoria RAM (es recomendable 2GB para poder ejecutar programas que se instalarán)
+   1.5 En las opciones para la creación, en el apartado **Tipo** seleccionaremos "Linux", en **Versión** seleccionaremos "otros", para **Nombre** es libre elección, en cuanto a **Carpeta de maquina** se recomienda dejar el destino por defecto, aunque se puede cambiar si asi se deasea.
 
    1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
 
