@@ -75,7 +75,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
     
     <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Rennvio%20de%20puertos.PNG" width="600" height="400"/>
     
-    2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente. Al abrirlo, colocaremos los siguientes datos (estos datos se serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior: En **Host name** colocaremos la ip de anfitrión, es decir, **127.0.0.1**. En **Puerto** colocaremos el puerto de anfitrión, el cual es **8001*. Debemos asegurarnos que en el apartado **Connection type** que se encuantra bajos los anteriores parámetros, esté seleccionada la opción **SSH*.
+    2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente (es importante recordar que este paso se realiza en el ambiente de escritorio de nuestro ordenador, no en la máquina virtual). Al abrirlo, colocaremos los siguientes datos (estos datos se serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior: En **Host name** colocaremos la ip de anfitrión, es decir, **127.0.0.1**. En **Puerto** colocaremos el puerto de anfitrión, el cual es **8001*. Debemos asegurarnos que en el apartado **Connection type** que se encuantra bajos los anteriores parámetros, esté seleccionada la opción **SSH*.
     
     <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Puttyconfiguracion.PNG" width="600" height="400"/>
 
