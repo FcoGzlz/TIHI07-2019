@@ -55,7 +55,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    2.6 Ahora descargaremos el software **PUTTY**, que nos permite conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
-   2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar.
+   2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar y solo presionaremos "siguiente.
    
    <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall.PNG" width="250px" height="200px"/> <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall2.PNG" width="250px" height="200px"/>
    
@@ -64,10 +64,10 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    
    
-   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración/preferencias)
+   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración"
    
-   2.8 Una vez en la pestaña "configuración/preferencias", cambiaremos a "NAT" nuestra tarjeta de red.
-   ........
+   2.8 Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
+   
    
    <img src="" width="" height=""/>
 
