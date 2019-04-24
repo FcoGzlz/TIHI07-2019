@@ -38,10 +38,10 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
     
           # ip a
      
-     
-   
+
 <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/SSH/7%20-%20Levantar%20Interfaz%20de%20red%20Centos.PNG" width="600px" height="400px"/>
      
+    
    2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
    
           # ifup enp0s3
@@ -69,9 +69,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    
    
-   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración"
-   
-   2.9 Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
+   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración". Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
    
    
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Configuracion%20red.PNG" width="600" height="400"/>
