@@ -66,19 +66,18 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración"
    
-   2.8 Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
+   2.9 Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
    
    
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Configuracion%20red.PNG" width="600" height="400"/>
       
-    2.9 Al presionar la opción **Avanzadas** se deslpliegarán más opciones de configuración, pincharemos en la opción **Reenvío de puertos**, luego de acceder a esta opción, aparecerá un recuadro en blanco; daremos click derecho en el cuadro y presionaremos donde dice **Agregar nueva regla**. Una vez realizado esto, procederemos a rellenar los datos: en el parámetro 
-    
-         **IP anfitrión**: debe ir la ip de nuestro ordenador, pondremos la dirección **127.0.0.1** ya que esta sirve a modo de loop y siempre apuntará a la nuestra. En el parámetro 
-         **Puerto anfitrión** pondremos el puerto **8001** ya que no está siendo ocupado. En 
-         **IP Invitado** colocaremos la **IP de nuestra máaquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2). Finalmente en 
-         **Puerto invitado** colocaremos el puerto **22**. Una vez hehco esto, daremos en aceptar en ambas ventanas e iniciaremos nuevamente nuestra máquina virtual.
+    2.9 Al presionar la opción **Avanzadas** se deslpliegarán más opciones de configuración, pincharemos en la opción **Reenvío de puertos**, luego de acceder a esta opción, aparecerá un recuadro en blanco; daremos click derecho en el cuadro y presionaremos donde dice **Agregar nueva regla**. Una vez realizado esto, procederemos a rellenar los datos: en el parámetro **IP anfitrión**: debe ir la ip de nuestro ordenador, pondremos la dirección **127.0.0.1** ya que esta sirve a modo de loop y siempre apuntará a la nuestra. En el parámetro **Puerto anfitrión** pondremos el puerto **8001** ya que no está siendo ocupado. En **IP Invitado** colocaremos la **IP de nuestra máaquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2). Finalmente en **Puerto invitado** colocaremos el puerto **22**. Una vez hehco esto, daremos en aceptar en ambas ventanas e iniciaremos nuevamente nuestra máquina virtual.
     
     <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Rennvio%20de%20puertos.PNG" width="600" height="400"/>
+    
+    2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente. Al abrirlo, colocaremos los siguientes datos (estos datos se serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior: En **Host name** colocaremos la ip de anfitrión, es decir, **127.0.0.1**. En **Puerto** colocaremos el puerto de anfitrión, el cual es **8001*. Debemos asegurarnos que en el apartado **Connection type** que se encuantra bajos los anteriores parámetros, esté seleccionada la opción **SSH*.
+    
+    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Puttyconfiguracion.PNG" width="600" height="400"/>
 
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
    
