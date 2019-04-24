@@ -12,7 +12,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 1. **Instalacion de CentOS en Máquina Virtual.**<a name ="paso1"></a>
 
-   1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
+   1.1	Para comenzar descargaremos el software para la virtualización del S.O CentOS en nuestro ordenador, utilizando el             siguiente link: (https://www.virtualbox.org/wiki/Downloads) y seleccionaremos el que corresponda a nuestro sistema.
 
    1.2 Una vez descargado el programa, lo instalaremos.
    ![VB Installer](https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VB1.PNG)
@@ -82,7 +82,9 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente (es importante recordar que este paso se realiza en el ambiente de escritorio de nuestro ordenador, no en la máquina virtual). Al abrirlo, colocaremos los siguientes datos (estos datos serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior): En **Host name** colocaremos la ip de anfitrión, es decir, **127.0.0.1**. En **Puerto** colocaremos el puerto de anfitrión, el cual es **8001**. Debemos asegurarnos que en el apartado **Connection type** que se encuantra bajos los anteriores parámetros, esté seleccionada la opción **SSH**. Una vez completados los parámetros presionaremos **Open**.
     
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Puttyconfiguracion.PNG" width="600" height="400"/>
-
+   
+   2.11 Al momento de presionar **Open**, se conectará a nuestra máquina virtual, por lo que nos pidirán nuestro usuario y contraseña. Una vez ingresados, podemos operar nuestra máquina virtual a través del software **Putty**, por lo que no habrá necesidad de ir directamente a la máquina virtual, sino que basta conque esta esté operando.
+   
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
    
    
