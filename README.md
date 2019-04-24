@@ -42,11 +42,14 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/SSH/7%20-%20Levantar%20Interfaz%20de%20red%20Centos.PNG" width="600px" height="400px"/>
      
     
-   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
+    
+    
+    
+    2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
    
           # ifup enp0s3
           
-   2.3 Una vez levantada la interfaz, instalaremos el serivicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos este comando:
+    2.3 Una vez levantada la interfaz, instalaremos el serivicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos este comando:
    
           # yum -y install openssh-server openssh-clients
           
