@@ -69,7 +69,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    2.8 Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat** si esque no lo está, para continuar, pincharemos donde dice **Avanzadas**
    
    
-   <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Configuracion%20red.PNG" width="400" height="350"/>
+   <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Configuracion%20red.PNG" width="720" height="650"/>
 
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
    
