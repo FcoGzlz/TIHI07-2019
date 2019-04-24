@@ -57,11 +57,15 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar.
    
+   <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall.PNG" width="500px" height="500px"/>
+   
+   
    2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración/preferencias)
    
    2.8 Una vez en la pestaña "configuración/preferencias", cambiaremos a "NAT" nuestra tarjeta de red.
    ........
    
+   <img src="" width="" height=""/>
 
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
    
