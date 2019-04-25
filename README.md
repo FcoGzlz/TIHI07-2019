@@ -117,6 +117,24 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    4.5 Si la resolucion del escritorio es baja, debes ir a configuracion/dispositivos/ .....
  
  5. **Instalar un IDE (en este caso se instaló NetBeans)** <a name = "paso5"></a>
+    5.1 En Proceso, mas que eso, recibe un hueso .-.
+    
+ 6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
+    6.1 añadimos el repositorio PostgreSQL 9.6
+    
+        # yum install  https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm -y
+        
+    6.2 instalamos PostgreSQL 9.6
+    
+        # yum install postgresql96 postgresql96-server postgresql96-contrib postgresql96-libs -y
+        
+    6.3 ejecutar PostgreSQL 
+    
+       *inicializamos PostgreSQL
+       
+        # /usr/pgsql-9.6/bin/postgresql96-setup initdb
+        
+       *habilitamos PostgreSQL
  
   
     
