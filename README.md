@@ -41,12 +41,9 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
     
           # ip a
      
-
+<p align="center">
 <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/SSH/7%20-%20Levantar%20Interfaz%20de%20red%20Centos.PNG" width="600px" height="400px"/>
-     
-    
-    
-    
+</p>
     
    2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
    
@@ -68,10 +65,13 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
    2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar y solo presionaremos "siguiente.
    
+<p align="center">
    <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall.PNG" width="250px" height="200px"/> <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall2.PNG" width="250px" height="200px"/>
+</p>
    
+<p align="center">
    <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall3.PNG" width="250px" height="200px"/> <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall4.PNG" width="250px" height="200px"/>
-   
+</p>
    
    
    
