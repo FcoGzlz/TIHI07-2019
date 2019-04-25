@@ -16,7 +16,9 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
     1.2 Una vez descargado el programa, lo instalaremos.
    
-   <div style="text-align:center"><img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VB1.PNG"></div>
+   <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VB1.PNG"/>
+    </p>
 
     1.3 Ya instalado el software, procederemos a descargar CentOS 7 minimal, para lo cual nos dirigiremos a: (https://www.centos.org/download/). Seleccionaremos la versión minimal.
    
