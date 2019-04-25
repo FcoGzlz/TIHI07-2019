@@ -92,6 +92,35 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    2.11 Al momento de presionar **Open**, se conectará a nuestra máquina virtual, por lo que nos pidirán nuestro usuario y contraseña. Una vez ingresados, podemos operar nuestra máquina virtual a través del software **Putty**, por lo que no habrá necesidad de ir directamente a la máquina virtual, sino que basta conque esta esté operando.
    
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
+
+   3.1 EN PROCESO....
+   
+4. **Instalar un ambiente gráfico (en este caso se utilizó Gnome)**<a name = "paso4"></a>
+
+   4.1 Debemos abrir un terminal para instalar GNOME Desktop Evironment e introducir esta syntaxis:
+   
+        # yum -y groups install "GNOME Desktop"
+    
+   4.2 Una vez ingresado debemos colocar este comando despues de finalizar la instalacion.
+   
+        # startx
+        
+   4.3 GNOME Desktop Environment iniciara. En el primer encendido, se ejecutara la configuracion inicial que deberas....
+  
+   * Selecciona el idioma del sistema.
+   * Selecciona la entrada de tu teclado.
+   * Si quieres puedes colocar una cuenta (Funciona sin cuenta)
+   * Finalmente le damos click a "Start using CentOS Linux"
+   
+   4.4 El escritorio se vera algo asi
+ 
+   4.5 Si la resolucion del escritorio es baja, debes ir a configuracion/dispositivos/ .....
+ 
+ 5. **Instalar un IDE (en este caso se instaló NetBeans)** <a name = "paso5"></a>
+ 
+  
+    
+
    
    
   
