@@ -49,6 +49,10 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
           # ifup enp0s3
           
+  <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Levanar%20interfaz.PNG"/>
+    </p>
+          
    2.3 Una vez levantada la interfaz, instalaremos el serivicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos este comando:
    
           # yum -y install openssh-server openssh-clients
