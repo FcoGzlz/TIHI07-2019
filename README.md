@@ -45,7 +45,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Buscar%20Interfaz.PNG"/>
 </p>
     
-   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
+   2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup "nombre de la interfaz`para levantar la interfaz: 
    
           # ifup enp0s3
           
