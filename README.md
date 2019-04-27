@@ -116,6 +116,10 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
    2.11 Al momento de presionar **Open**, se conectará a nuestra máquina virtual, por lo que nos pidirán nuestro usuario y contraseña. Una vez ingresados, podemos operar nuestra máquina virtual a través del software **Putty**, por lo que no habrá necesidad de ir directamente a la máquina virtual, sino que basta conque esta esté operando.
    
+   <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Putty.PNG"/>
+    </p>
+   
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
 
    3.1 EN PROCESO....
