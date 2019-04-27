@@ -96,12 +96,19 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 * **IP anfitrión:** Debe ir la ip de nuestro ordenador, pondremos la dirección **127.0.0.1** ya que esta sirve a modo de loop y siempre apuntará a la nuestra.
 * **Puerto anfitrión** Pondremos el puerto **8001** ya que no está siendo ocupado. 
 * **IP Invitado:** Colocaremos la **IP de nuestra máquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2).
-* **Puerto invitado:** Colocaremos el puerto **22**. 
+* **Puerto invitado:** Colocaremos el puerto **22**.
+
+Una vez comfigurados los campos, presionaremos la opción **Aceptar** tanto en la ventana de reenvío de puertos, como en la de configuración.
     
 <p align ="center">
-<img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Rennvio%20de%20puertos.PNG" width="600" height="400"/>
+<img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Rennvio%20de%20puertos.PNG"/>
 </p>
-   2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente (es importante recordar que este paso se realiza en el ambiente de escritorio de nuestro ordenador, no en la máquina virtual). Al abrirlo, colocaremos los siguientes datos (estos datos serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior): En **Host name** colocaremos la ip de anfitrión, es decir, **127.0.0.1**. En **Puerto** colocaremos el puerto de anfitrión, el cual es **8001**. Debemos asegurarnos que en el apartado **Connection type** que se encuantra bajos los anteriores parámetros, esté seleccionada la opción **SSH**. Una vez completados los parámetros presionaremos **Open**.
+   2.10 Una vez iniciada nuestra máquina virtual, abriremos el software **Putty** descargado anteriormente (es importante recordar que este paso se realiza en el ambiente de escritorio de nuestro ordenador, no en la máquina virtual). Al abrirlo, colocaremos los siguientes datos (estos datos serán llenados basándonos el los que pusimos en el "Port Forward" realizado en el paso anterior):
+* **Host name:** colocaremos la ip de anfitrión, es decir, **127.0.0.1**.
+* **Puerto:** colocaremos el puerto de anfitrión, el cual es **8001**. 
+* **Connection type:** Este parámetro es importante ya que dictará el método de conexión, por lo que seleccionaremos la opción **SSH**.
+
+Una vez completados los datos, presionaremos donde dice **Open**.
     
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Puttyconfiguracion.PNG" width="500" height="450"/>
    
