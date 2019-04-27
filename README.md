@@ -109,8 +109,10 @@ Una vez comfigurados los campos, presionaremos la opción **Aceptar** tanto en l
 * **Connection type:** Este parámetro es importante ya que dictará el método de conexión, por lo que seleccionaremos la opción **SSH**.
 
 Una vez completados los datos, presionaremos donde dice **Open**.
-    
+
+   <p align="center">
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Puttyconfiguracion.PNG"/>
+   </p>
    
    2.11 Al momento de presionar **Open**, se conectará a nuestra máquina virtual, por lo que nos pidirán nuestro usuario y contraseña. Una vez ingresados, podemos operar nuestra máquina virtual a través del software **Putty**, por lo que no habrá necesidad de ir directamente a la máquina virtual, sino que basta conque esta esté operando.
    
