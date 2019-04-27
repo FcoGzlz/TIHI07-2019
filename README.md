@@ -95,13 +95,13 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
    3.1 EN PROCESO....
    
-4. **Instalar un ambiente gráfico (en este caso se utilizó Gnome)**<a name = "paso4"></a>
+4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
 
-   4.1 Debemos abrir un terminal para instalar GNOME Desktop Evironment e introducir esta syntaxis:
+   4.1 Para su instalación, ejecutremos el siguiente comando en nuestra terminal:
    
         # yum -y groups install "GNOME Desktop"
     
-   4.2 Una vez ingresado debemos colocar este comando despues de finalizar la instalacion.
+   4.2 Una vez terminada la descarga e instalación, introduciremos el comando `startx` (este comando se deberá intrducir cada vez que se inicie la máquina):
    
         # startx
         
