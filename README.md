@@ -105,14 +105,14 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    
         # startx
         
-   4.3 GNOME Desktop Environment iniciara. En el primer encendido, se ejecutara la configuracion inicial que deberas....
+   4.3 GNOME Desktop Environment iniciara. En el primer encendido, se ejecutara la configuracion inicial en laque deberás:
   
    * Selecciona el idioma del sistema.
    * Selecciona la entrada de tu teclado.
    * Si quieres puedes colocar una cuenta (Funciona sin cuenta)
    * Finalmente le damos click a "Start using CentOS Linux"
    
-   4.4 El escritorio se vera algo asi
+   4.4 El ambiente gráfico se verá como en la siguiente imágen:
  
    4.5 Si la resolucion del escritorio es baja, debes ir a configuracion/dispositivos/ .....
  
