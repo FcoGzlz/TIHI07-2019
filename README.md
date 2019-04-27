@@ -25,7 +25,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
    <img src="https://user-images.githubusercontent.com/48935510/56478835-f543db80-647f-11e9-927f-6b3dfda776de.jpg" width="900px" height="200px"/>
 
 
-   1.4 Una vez descargados ambos programas, abriremos el VirtualBox y crearemos una máquina nueva.
+    1.4 Una vez descargados ambos programas, abriremos el VirtualBox y crearemos una máquina nueva.
    
    ![1 4](https://user-images.githubusercontent.com/48935510/56480397-e6f9bd80-6487-11e9-80c9-cfb8980e648c.jpg)
    
@@ -44,7 +44,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 <p align="center">
 <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Buscar%20Interfaz.PNG"/>
 </p>
-    
+
    2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número "2", luego utilizaremos el comando `ifup "nombre de la interfaz"`para levantar la interfaz, como el nombre de nuestra interfaz resultó ser **enp0s3**, el comando queda: 
    
           # ifup enp0s3
