@@ -42,7 +42,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
           # ip a
      
 <p align="center">
-<img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/SSH/7%20-%20Levantar%20Interfaz%20de%20red%20Centos.PNG" width="600px" height="400px"/>
+<img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Buscar%20Interfaz.PNG" width="600px" height="400px"/>
 </p>
     
    2.2 Esto nos permitirá saber el nombre de nuestra interfaz el cual es estandarizado, por lo que nos fijaremos en el número 2 que en nuestro caso resultó llamarse *"enp0s3"*, luego utilizaremos el comando `ifup`para levantar la interfaz: 
