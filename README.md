@@ -137,10 +137,16 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/Oracle.PNG"/>
     </p>
    
-   3.4 Debemos asegurarnos de que está marcada la opción **Accept License Agreement**, luego daremos click derecho en el archivo **Linux x64**, debemos tener precaución de **elegir el que tenga la extención `.rpm`:
+   3.4 Debemos asegurarnos de que está marcada la opción **Accept License Agreement**, luego buscaremos el archivo **Linux x64**, debemos tener precaución de **elegir el que tenga la extención ".rpm"**.
    
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/OracleN.PNG"/>
+    </p>
+    
+   3.5 Una vez encontrado el archivo, daremos lcick derecho en donde dice **jdk-8u211-linux-x64.rpm** y seleccionaremos **Copiar ubicación del enlace**.
+   
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/OracleCopiarLink.png"/>
     </p>
    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
