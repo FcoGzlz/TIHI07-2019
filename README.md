@@ -53,31 +53,42 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     
    1.6 En la siguiente ventana, se configurará la cantidad de **Memoria RAM** que se asignará a la máquina, se recomienda dejar **2 GB** de memoria, lo que equibale a **2048 MB**, esto será suficiente para ejecutar algunos programas que se instalarán en la máquina, luego presionaremos **Next**:
     
-     <p align="center">
+<p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/BVMemoria.PNG" width="600px" height="420px />
-    </p>
+</p>
     
-   1.7 Lo siguiente es la asignación de **Disco Duro**:
+1.7 Lo siguiente es la asignación de **Disco Duro**:
+
+
+
+
    
-    * Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
-    * Seleccionaremos la opción **VDI (VirtualBox Disk Image), seleccionamos **Next**.
-    * En la siguiente ventana, seleccionaremos la opción **Reservado dinámicamente**, esto permite que el tamaño del disco aumente según instalemos programas, presionaremos **Next**.
-    * Para continuar, configuraremos el tamaño del disco, pondremos un mínimo de **100 GB** y presionaremos **Crear**.
-    
-  <p align="center">
+   1.7.1 Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
+   
+   <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco.PNG"/>
     </p>
-  <p align="center">
+    
+    
+    
+    
+   1.7.2 Seleccionaremos la opción **VDI (VirtualBox Disk Image), seleccionamos **Next**.
+   
+   <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco2.PNG"/>
-    </p>
-  <p align="center">
+   </p>
+    
+   1.7.3 En la siguiente ventana, seleccionaremos la opción **Reservado dinámicamente**, esto permite que el tamaño del disco aumente según instalemos programas, presionaremos **Next**.
+   
+   <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBTama%C3%B1oDisco.PNG"/>
     </p>
+    
+   1.7.4 Para continuar, configuraremos el tamaño del disco, pondremos un mínimo de **100 GB** y presionaremos **Crear**.
     
   <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBTama%C3%B1oDisco2.PNG"/>
     </p>
-
 
 
    1.8 Una vez configurada la máquina, presionaremos el botón **Iniciar**, y seleccionaremos nuestro **ISO** de **CentOS** antes descargado:
