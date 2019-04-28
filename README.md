@@ -31,9 +31,11 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    <img src="https://user-images.githubusercontent.com/48935510/56478835-f543db80-647f-11e9-927f-6b3dfda776de.jpg" width="900px" height="200px"/>
 
 
-    1.4 Una vez descargados ambos programas, abriremos el VirtualBox y crearemos una máquina nueva.
+    1.4 Una vez descargados **VirutalBox** y **CentOS 7**, abriremos **VirtualBox** y seleccionaremos la opción **Nueva**:
    
-   ![1 4](https://user-images.githubusercontent.com/48935510/56480397-e6f9bd80-6487-11e9-80c9-cfb8980e648c.jpg)
+   <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBNUEVA2.PNG"/>
+    </p>
    
    1.5 En las opciones para la creación, en el apartado **Tipo** seleccionaremos "Linux", en **Versión** seleccionaremos "otros", para **Nombre** es libre elección, en cuanto a **Carpeta de maquina** se recomienda dejar el destino por defecto, aunque se puede cambiar si asi se deasea.
 
