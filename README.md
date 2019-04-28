@@ -58,6 +58,8 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     </p>
 
 1.7 Lo siguiente es la asignación de **Disco Duro**.
+
+   1.7 Lo siguiente es la asignación de **Disco Duro**:
    
    
    
