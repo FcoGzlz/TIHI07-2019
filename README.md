@@ -8,11 +8,13 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 5. [**Instalar un IDE (en este caso se instaló NetBeans)**](#paso5)
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
---------------------------------------------------------------------------------------------------------------------------------
+
 Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 * Todos los comandos utilizados, se usan estando en el **Super Usuario** o **usuario Root**.
-* Es importante tener la **virtualización activada** para poder virutalizar CentOS.
-* A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el siguimiento de los pasos.
+* Es importante tener la **Virtualización activada** para poder virtualizar CentOS.
+* A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el seguimiento de los pasos.
+--------------------------------------------------------------------------------------------------------------------------------
+
 
 1. **Instalacion de CentOS en Máquina Virtual.**<a name ="paso1"></a>
 
