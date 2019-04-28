@@ -40,14 +40,41 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    
    1.5 En las opciones para la creación, se encontrarán los siguientes campos:
    
-   
-   * **Nombre:** Aquí se define el nombre que tendrá la carpeta la la máquina virutal.
-   * **Carpeta de maquina:** Esta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
-   * **Tipo:** Aquí se selecciona el tipo de S.O, en nuestro caso es **Linux** 
-   * **Versión:** Esta es la versión de S.O, por lo que seleccionaremos **Other Linux (64-bit)**, es importante seleccionar la versión de 64 bits.
+    * **Nombre:** Aquí se define el nombre que tendrá la carpeta la la máquina virtual.
+    * **Carpeta de maquina:** Esta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
+    * **Tipo:** Aquí se selecciona el tipo de S.O, en nuestro caso es **Linux** 
+    * **Versión:** Esta es la versión de S.O, por lo que seleccionaremos **Other Linux (64-bit)**, es importante seleccionar la versión de 64 bits.
+    Una vez completados los campos, presionaremos **Next**.
    
     <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/NuevoVB.PNG"/>
+    </p>
+    
+   1.6 En la siguiente ventana, se configirará la cantidad de **Memoria RAM** que se asignará a la máquina, se reomienda dejar **2 GB** de memoria, lo que equibaldría a **2048 MB**, esto será suficiente para ejecutar algunos programas que se instalarán en la máquina, luego presionaremos **Next**:
+    
+     <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/BVMemoria.PNG"/>
+    </p>
+    
+   1.7 Lo siguiente es la asignación de **Disco Duro**:
+   
+    * Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
+    * Seleccionaremos la opción **VDI (VirtualBox Disk Image), seleccionamos **Next**.
+    * En la siguiente ventana, seleccionaremos la opción **Reservado dinámicamente**, esto permite que el tamaño del disco aumente según instalemos softwares, presionaremos **Next**.
+    * Para continuar, configuraremos el tamaño del disco, pondremos un mínimo de **100 GB** y presionaremos **Crear**.
+    
+  <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco.PNG"/>
+    </p>
+  <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco2.PNG"/>
+    </p>
+  <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBTama%C3%B1oDisco.PNG"/>
+    </p>
+    
+  <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBTama%C3%B1oDisco2.PNG"/>
     </p>
 
    1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
