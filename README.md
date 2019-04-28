@@ -78,6 +78,7 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     </p>
 
 
+
    1.8 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
 
 
