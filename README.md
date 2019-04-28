@@ -57,13 +57,14 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/BVMemoria.PNG"  width="600px" height="420px />
     </p>
 
-1.7 Lo siguiente es la asignación de **Disco Duro**.
+   1.7 Lo siguiente es la asignación de **Disco Duro**.
 
-   1.7 Lo siguiente es la asignación de **Disco Duro**:
+
+   1.7.1Lo siguiente es la asignación de **Disco Duro**:
    
    
    
-1.7.1 Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
+   1.7.1 Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
    
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco.PNG"/>
@@ -98,6 +99,7 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 
 
 2. **Habilitar servicio SSH**<a name ="paso2"></a>
+
 
    2.1 Cuando hayamos seleccionado nuestro "ISO", CentOS iniciará y mostrará la terminal del Sistema, por lo que utilizaremos comandos para seguir con el resto de las instalaciones. Primero revisaremos el nombre y estado de nuestra interfaz de red, utilizando el comando `ip a`:
     
@@ -188,6 +190,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Putty.PNG"/>
     </p>
    
+   
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
 
    3.1 Para instalar Joava Oracle en CentOS, primero instalaremos *OpenJDK 8*, ara ello, utilizaremos el siguiente comando (durante la instalación, aparecerán opciones de confirmación, por lo que presionaremos la tecla `y` y luego `Enter` para confirmar):
@@ -246,6 +249,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     </p>
  
    4.5 Si se quiere cambiar la resoución del escritorio de Gnome:
+   
    * Haga click en el apartado **Aplicaciones** que se encuentra en la parte superior izquierda.
    * Luego dirijase al apartado **Herramientas del sistema**.
    * Dentro de este apartado, haga cick en la opción **Configuración**.
