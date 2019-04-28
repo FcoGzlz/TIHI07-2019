@@ -9,6 +9,10 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
 --------------------------------------------------------------------------------------------------------------------------------
+Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
+* Todos los comandos utilizados, se usan estando en el **Super Usuario** o **usuario Root**.
+* Es importante tener la **virtualización activada** para poder virutalizar CentOS.
+* A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el siguimiento de los pasos.
 
 1. **Instalacion de CentOS en Máquina Virtual.**<a name ="paso1"></a>
 
@@ -195,7 +199,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
  6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
  
-    6.1 Para comenzar, añadiremos el repositorio de **Postgre SQL 9.6** ya que en los repositorios oficiales, va en una versión anterior, para ello, ejecutaremos el comando.
+    6.1 Para comenzar, añadiremos el repositorio de **Postgre SQL 9.6** ya que en los repositorios oficiales, va en una versión anterior, para ello, ejecutaremos el comando:
     
         # yum install  https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm -y
         
@@ -203,7 +207,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
         # yum install postgresql96 postgresql96-server postgresql96-contrib postgresql96-libs -y
         
-    6.3 Una vez instalado, lo inicializaremos, para ello utilizadmos:
+    6.3 Una vez instalado, lo inicializaremos, para ello utilizamos:
        
         # /usr/pgsql-9.6/bin/postgresql96-setup initdb
         
