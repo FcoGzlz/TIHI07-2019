@@ -77,7 +77,8 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBTama%C3%B1oDisco2.PNG"/>
     </p>
 
-   1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
+
+   1.8 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
 
 
 
