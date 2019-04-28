@@ -122,7 +122,15 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
 
-   3.1 EN PROCESO....
+   3.1 Para instalar Joava Oracle en CentOS, primero instalaremos *OpenJDK 8*, ara ello, utilizaremos el siguiente comando (durante la instalación, aparecerán opciones de confirmación, por lo que presionaremos la tecla `y` y luego enter para confirmar):
+   
+        # yum install java-1.8.0-openjdk-devel
+   
+   3.2 Una vez completado el paso anterior, procederemos a instalar **Java Oracle 8 JDK**, para lo cual iremos a la página de Oracle, utilizando el siguiente link: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), de igual manera, copiaremos el anterior link para utilizarlo en el comando `wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "aquí va el link"`, hecho esto introduciremos los siguientes comandos (recuerda poner el link de la página en el segundo comando):
+        
+        # cd ~
+        # wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
+   
    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
 
