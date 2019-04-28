@@ -143,6 +143,10 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/OracleN.PNG"/>
     </p>
     
+   3.5 Por último, utilizaremos el siguiente comando para instalar **JDK 8** `yum localinstall "AQUÍ VA EL LINK COPIADO EN EL PASO ANTERIOR"` (recuerda utilizar el link copiado en el aso anterior), en nuestro caso el comando queda así:
+   
+        # yum localinstall https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.rpm
+    
    3.5 Una vez encontrado el archivo, daremos lcick derecho en donde dice **jdk-8u211-linux-x64.rpm** y seleccionaremos **Copiar ubicación del enlace**.
    
     <p align="center">
