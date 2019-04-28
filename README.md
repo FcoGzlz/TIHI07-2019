@@ -39,6 +39,8 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     </p>
    
    1.5 En las opciones para la creación, se encontrarán los siguientes campos:
+   
+   
    * **Nombre:** Aquí se define el nombre que tendrá la carpeta la la máquina virutal.
    * **Carpeta de maquina:** Esta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
    * **Tipo:** Aquí se selecciona el tipo de S.O, en nuestro caso es **Linux** 
