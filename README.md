@@ -57,19 +57,17 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/BVMemoria.PNG" width="600px" height="420px />
 </p>
     
- --------------------------------------------------------------------------------------------------------------------------------
  
  
  
- 
- 
- 
- 
-   1.7 Lo siguiente es la asignación de **Disco Duro**:
+   
+
+
+1.7 Lo siguiente es la asignación de **Disco Duro**.
    
    
-   1.7.1 Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
    
+1.7.1 Seleccionaremos la opción **Crear un disco duro virtual ahora** y presionaremos **Crear**.
    
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBDisco.PNG"/>
