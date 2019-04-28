@@ -164,7 +164,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
         # startx
         
-   4.3 GNOME Desktop Environment iniciara. En el primer encendido, se ejecutara la configuracion inicial en laque deberás:
+   4.3 GNOME Desktop Environment iniciara. En el primer encendido, se ejecutara la configuracion inicial en la que deberás:
   
    * Selecciona el idioma del sistema.
    * Selecciona la entrada de tu teclado.
@@ -194,21 +194,23 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     5.1 En Proceso, mas que eso, recibe un hueso .-.
     
  6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
-    6.1 añadimos el repositorio PostgreSQL 9.6
+ 
+    6.1 Para comenzar, añadiremos el repositorio de **Postgre SQL 9.6** ya que en los repositorios oficiales, va en una versión anterior, para ello, ejecutaremos el comando.
     
         # yum install  https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm -y
         
-    6.2 instalamos PostgreSQL 9.6
+    6.2 Una vez agregado el repositorio, instalremos **Postgre SQL 9.6**, para lo cual utilizaremos el siguiente comando:
     
         # yum install postgresql96 postgresql96-server postgresql96-contrib postgresql96-libs -y
         
-    6.3 ejecutar PostgreSQL 
-    
-       *inicializamos PostgreSQL
+    6.3 Una vez instalado, lo inicializaremos, para ello utilizadmos:
        
         # /usr/pgsql-9.6/bin/postgresql96-setup initdb
         
-       *habilitamos PostgreSQL
+    6.4 Para finalizar, activaremos **Postgree** para que inicie con el sistema, para ello utilizaremos los siguientes comandos:
+    
+        # systemctl enable postgresql-9.6.service
+        # systemctl start postgresql-9.6.service
  
   
     
