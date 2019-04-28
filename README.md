@@ -79,7 +79,11 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 
 
 
-   1.8 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
+   1.8 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro **ISO** de **CentOS** antes descargado:
+   
+   <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBIso.PNG"/>
+    </p>
 
 
 
