@@ -11,8 +11,8 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 * Todos los comandos utilizados, se usan estando en el **Super Usuario** o **usuario Root**.
-* Es importante tener la **Virtualización activada** para poder virtualizar CentOS.
 * A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el seguimiento de los pasos.
+* Es importante tener la **Virtualización activada** para poder virtualizar CentOS, si no estás seguro si tu ordenador tiene activada esta opción, puedes seguir los siguietes pasos, de lo contrario, puedes pasar directamente al primer paso de la guía.
 --------------------------------------------------------------------------------------------------------------------------------
 
 
