@@ -126,7 +126,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
 
-   4.1 Para su instalación, ejecutremos el siguiente comando en nuestra terminal:
+   4.1 Para su instalación, ejecutaremos el siguiente comando en nuestra terminal:
    
         # yum -y groups install "GNOME Desktop"
     
@@ -142,8 +142,23 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    * Finalmente le damos click a "Start using CentOS Linux"
    
    4.4 El ambiente gráfico se verá como en la siguiente imágen:
+   
+    <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Gnome/Gnome.PNG"/>
+    </p>
  
-   4.5 Si la resolucion del escritorio es baja, debes ir a configuracion/dispositivos/ .....
+   4.5 Si se quiere cambiar la resoución del escritorio de Gnome:
+   * Haga click en el apartado **Aplicaciones** que se encuentra en la parte superior izquierda.
+   * Luego dirijase al apartado **Herramientas del sistema**.
+   * Dentro de este apartado, haga cick en la opción **Configuración**.
+   * Una vez dentro de las configuraciones, acceda al apartado **Dispositivos**, el cual es el penúltimo de la lista.
+   * Finalmente, haga click donde dice **Resolución** y seleccionae la que más le acomode.
+   
+   <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Gnome/GnomeConfig.PNG"/>
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Gnome/GnomeDispsitivos.PNG"/>
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Gnome/GnomeResolucion.PNG"/>
+    </p>
  
  5. **Instalar un IDE (en este caso se instaló NetBeans)** <a name = "paso5"></a>
     5.1 En Proceso, mas que eso, recibe un hueso .-.
