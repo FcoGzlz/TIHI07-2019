@@ -106,7 +106,7 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
         <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Levanar%20interfaz.PNG"/>
     </p>
           
-   2.3 Una vez levantada la interfaz, instalaremos el serivicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos el comando:
+   2.3 Una vez levantada la interfaz, instalaremos el servicio **SSH**, este nos permitirá conectarnos de manera remota a nuestra máquina, para ello utlizaremos el comando:
    
           # yum -y install openssh-server openssh-clients
           
@@ -118,13 +118,13 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    
           # service sshd restart
    
-   2.6 Ahora descargaremos el software **PUTTY**, que nos permite conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+   2.6 Ahora descargaremos el software **Putty**, que nos permite conectarnos a nuestra maquina virtual desde nuestro Windows, mediante este link: (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
    
    <p align="center">
 <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/SSH/Putty%20Installer.PNG"/>
 </p>
    
-   2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar y solo presionaremos "siguiente.
+   2.7 Una vez descargado, lo instalaremos; esta instalación es bastante sencilla, por lo que dejaremos los valores por defecto al instalar y solo presionaremos **Siguiente**.
    
 <p align="center">
    <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall.PNG" width="250px" height="200px"/> <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall2.PNG" width="250px" height="200px"/>
@@ -134,7 +134,13 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall3.PNG" width="250px" height="200px"/> <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Mauina%20Virutal%20y%20PUTTY/PuttyInstall4.PNG" width="250px" height="200px"/>
 </p>
    
-   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como "Port Forward", para ello, suspenderemos nuestra máquina virtual, y daremos click derecho en nuestra máquina y seleccionaremos "configuración". Una vez en la pestaña "configuración", presionaremos en el apartado **Red**, una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **Nat**, para continuar, pincharemos donde dice **Avanzadas**
+   2.8 Para usar el software, necesitaremos realizar una configuración de puertos en nuestra máquina, conocida como **Port Forward**, para ello,
+   
+   * Suspenderemos nuestra máquina virtual.
+   * Una vez detenida la máquina, presionaremos **configuración**.
+   * Dentro del apartado de **Configuración** seleccionaremos donde dice **Red**. 
+   * Una vez allí, buscaremos la opción que dice **Conectado a** y lo cambiaremos por la opción **NAT**. 
+   * Para continuar, pincharemos donde dice **Avanzadas**.
    
    <p align="center">
    <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Configuracion%20red.PNG"/>
@@ -149,7 +155,7 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    * **IP Invitado:** Colocaremos la **IP de nuestra máquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2).
    * **Puerto invitado:** Colocaremos el puerto **22**.
 
-Una vez comfigurados los campos, presionaremos la opción **Aceptar** tanto en la ventana de reenvío de puertos, como en la de configuración.
+       Una vez configurados los campos, presionaremos la opción **Aceptar** tanto en la ventana de reenvío de puertos, como en la  de configuración.
     
 <p align ="center">
 <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PORTFORWARD/Rennvio%20de%20puertos.PNG"/>
