@@ -131,7 +131,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         # cd ~
         # wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
    
-   3.3 Una vez completado el paso anterior, iremos nuevamente a la página de Oracle mediante el link utilizado en el paso anterior: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Una vez ahí, ubicaremos donde diga ** Java SE Development Kit 8u211**
+   3.3 Una vez completado el paso anterior, iremos nuevamente a la página de Oracle mediante el link utilizado en el paso anterior: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Una vez ahí, ubicaremos donde diga **Java SE Development Kit 8u211**
    
    <p align="center">
         <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Oracle/Oracle.PNG"/>
