@@ -126,11 +126,16 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
         # yum install java-1.8.0-openjdk-devel
    
-   3.2 Una vez completado el paso anterior, procederemos a instalar **Java Oracle 8 JDK**, para lo cual iremos a la página de Oracle, utilizando el siguiente link: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), de igual manera, copiaremos el anterior link para utilizarlo en el comando `wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "aquí va el link"`, hecho esto introduciremos los siguientes comandos (recuerda poner el link de la página en el segundo comando):
+   3.2 Una vez completado el paso anterior, procederemos a instalar **Java Oracle 8 JDK**, para lo cual iremos a la página de Oracle, utilizando el siguiente link: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), de igual manera, copiaremos el anterior link para utilizarlo en el comando `wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "EN ESTA SECCIÓN DEBE IR EL LINK"`, hecho esto introduciremos los siguientes comandos (recuerda poner el link de la página en el segundo comando):
         
         # cd ~
         # wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
    
+   3.3 Una vez completado el paso anterior, iremos nuevamente a la página de Oracle mediante el link utilizado en el paso anterior: (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Una vez ahí, ubicaremos donde diga ** Java SE Development Kit 8u211**
+   
+   <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Oracle/Oracle.PNG"/>
+    </p>
    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
 
