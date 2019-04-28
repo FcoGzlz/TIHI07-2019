@@ -122,7 +122,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    
 3. **Instalación de Java Oracle en CentOS7**<a name = "paso3"></a>
 
-   3.1 Para instalar Joava Oracle en CentOS, primero instalaremos *OpenJDK 8*, ara ello, utilizaremos el siguiente comando (durante la instalación, aparecerán opciones de confirmación, por lo que presionaremos la tecla `y` y luego enter para confirmar):
+   3.1 Para instalar Joava Oracle en CentOS, primero instalaremos *OpenJDK 8*, ara ello, utilizaremos el siguiente comando (durante la instalación, aparecerán opciones de confirmación, por lo que presionaremos la tecla `y` y luego `Enter` para confirmar):
    
         # yum install java-1.8.0-openjdk-devel
    
@@ -143,16 +143,17 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/OracleN.PNG"/>
     </p>
     
-   3.5 Por último, utilizaremos el siguiente comando para instalar **JDK 8** `yum localinstall "AQUÍ VA EL LINK COPIADO EN EL PASO ANTERIOR"` (recuerda utilizar el link copiado en el aso anterior), en nuestro caso el comando queda así:
-   
-        # yum localinstall https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.rpm
-    
    3.5 Una vez encontrado el archivo, daremos lcick derecho en donde dice **jdk-8u211-linux-x64.rpm** y seleccionaremos **Copiar ubicación del enlace**.
    
     <p align="center">
         <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Oracle/OracleCopiarLink2.png"/>
     </p>
+    
+   3.6 Por último, utilizaremos el siguiente comando para instalar **JDK 8** `yum localinstall "AQUÍ VA EL LINK COPIADO EN EL PASO ANTERIOR"` (recuerda utilizar el link copiado en el aso anterior), en nuestro caso el comando queda así:
    
+        # yum localinstall https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.rpm
+    
+    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
 
    4.1 Para su instalación, ejecutaremos el siguiente comando en nuestra terminal:
