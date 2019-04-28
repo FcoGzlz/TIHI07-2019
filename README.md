@@ -146,7 +146,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
    3.5 Una vez encontrado el archivo, daremos lcick derecho en donde dice **jdk-8u211-linux-x64.rpm** y seleccionaremos **Copiar ubicación del enlace**.
    
     <p align="center">
-        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Oracle/OracleCopiarLink.png"/>
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Oracle/OracleCopiarLink2.png"/>
     </p>
    
 4. **Instalar de ambiente grádico Gnome**<a name = "paso4"></a>
