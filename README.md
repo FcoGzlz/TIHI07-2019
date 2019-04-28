@@ -39,9 +39,9 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
    
    1.5 En las opciones para la creación, se encontrarán los siguientes campos:
    * **Nombre:** Aquí se define el nombre que tendrá la carpeta la la máquina virutal.
-   * **Carpeta de maquina:** Ésta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
+   * **Carpeta de maquina:** Esta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
    * **Tipo:** Aquí se selecciona el tipo de S.O, en nuestro caso es **Linux** 
-   * **Versión:** Ésta es la versión de S.O, por lo que seleccionaremos **Other Linux (64-bit)**, es importante seleccionar la versión de 64 bits.
+   * **Versión:** Esta es la versión de S.O, por lo que seleccionaremos **Other Linux (64-bit)**, es importante seleccionar la versión de 64 bits.
    
     <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/NuevoVB.PNG"/>
@@ -105,12 +105,12 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
     
    2.9 Al presionar la opción **Avanzadas** se deslpliegarán más opciones de configuración, pincharemos en la opción **Reenvío de puertos**, luego de acceder a esta opción, aparecerá un recuadro en blanco; daremos click derecho en el cuadro y presionaremos donde dice **Agregar nueva regla**. Una vez realizado esto, procederemos a completar los datos:
    
-* **Nombre:** Este será el nombre de nuestro reenvío de puertos, puede ser cualquiera.
-* **Protocolo:** Este es el protocolo de transferencia, por lo que pondremos **TCP**
-* **IP anfitrión:** Debe ir la ip de nuestro ordenador, pondremos la dirección **127.0.0.1** ya que esta sirve a modo de loop y siempre apuntará a la nuestra.
-* **Puerto anfitrión** Pondremos el puerto **8001** ya que no está siendo ocupado. 
-* **IP Invitado:** Colocaremos la **IP de nuestra máquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2).
-* **Puerto invitado:** Colocaremos el puerto **22**.
+   * **Nombre:** Este será el nombre de nuestro reenvío de puertos, puede ser cualquiera.
+   * **Protocolo:** Este es el protocolo de transferencia, por lo que pondremos **TCP**
+   * **IP anfitrión:** Debe ir la ip de nuestro ordenador, pondremos la dirección **127.0.0.1** ya que esta sirve a modo de loop y siempre apuntará a la nuestra.
+   * **Puerto anfitrión** Pondremos el puerto **8001** ya que no está siendo ocupado. 
+   * **IP Invitado:** Colocaremos la **IP de nuestra máquina virtual** (la cual pudimos saber al utilizar el comando `ip a` en el primer paso del punto 2).
+   * **Puerto invitado:** Colocaremos el puerto **22**.
 
 Una vez comfigurados los campos, presionaremos la opción **Aceptar** tanto en la ventana de reenvío de puertos, como en la de configuración.
     
