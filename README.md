@@ -37,7 +37,15 @@ Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBNUEVA2.PNG"/>
     </p>
    
-   1.5 En las opciones para la creación, en el apartado **Tipo** seleccionaremos "Linux", en **Versión** seleccionaremos "otros", para **Nombre** es libre elección, en cuanto a **Carpeta de maquina** se recomienda dejar el destino por defecto, aunque se puede cambiar si asi se deasea.
+   1.5 En las opciones para la creación, se encontrarán los siguientes campos:
+   * **Nombre:** Aquí se define el nombre que tendrá la carpeta la la máquina virutal.
+   * **Carpeta de maquina:** Ésta es la ruta donde se guardará la máquina (en caso de querer respaldar la máquina, se debe copiar la carpeta de esta ruta), se recomienda dejar la ruta por defecto, pero se puede cambiar si asi se desea.
+   * **Tipo:** Aquí se selecciona el tipo de S.O, en nuestro caso es **Linux** 
+   * **Versión:** Ésta es la versión de S.O, por lo que seleccionaremos **Other Linux (64-bit)**, es importante seleccionar la versión de 64 bits.
+   
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/NuevoVB.PNG"/>
+    </p>
 
    1.6 Una vez configurada la máquina, presionaremos el botón “iniciar”, y seleccionaremos nuestro CentOS antes descargado.
 
