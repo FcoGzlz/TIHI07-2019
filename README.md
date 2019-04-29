@@ -280,10 +280,41 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
         # ./netbeans-8.0.1-linux.sh
         
-    5.6 Una vez introducido el comando anterior, se desplegará el instalador de **NetBeans**:
+    5.6 Una vez introducido el comando anterior, se desplegará el instalador de **NetBeans**, presionaremos **Next**:
     
     <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeans.jpg"/>
+    </p>
+     
+    5.7 Las siguientes dos ventanas, son las confirmaciones de licencia, por lo que seleccionaremos **I accept the terms in the license agreement** y presionaremos **Next** (repetiremos este proceso en las dos vetnanas de licencia):
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansLicencia1.jpg"/>
+        img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansLicencia2.jpg"/>
+    </p>
+    
+    5.8 Lo siguiente es seleccionar la versión de **JDK** a utilizar, por lo que seleccionremos la que aparece en la imágen, en aso de que no salga esta versión, podemos seleccionar la que en su nombre incluya la palabra **default**, luego de seleccionar, presionaremos **Next**:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansJava.jpg"/>
+    </p>
+    
+    5.8 A continuación, se instala el servidor **GlasFish**, por lo que no cambiaremos nada, solamente presionaremos **Next**:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansGlassfish.jpg"/>
+    </p>
+    
+    5.9 Luego se mostrará la ventana de **buscar actualizaciones**, esto es a libre elección, ya que no influirá en la instalación de **NetBeans**, para continuar, presionaremos **Install**:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansUpdates.jpg"/>
+    </p>
+    
+    5.9 Una vez se haya completado la instalacióm, nos aparecerá una última ventana, la cual nos pedirá si deseamos contribuir con información, esto es irrelevante, por lo que queda a libre elección, para terminar, presionaremos **Finish**:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansContribute.jpg"/>
     </p>
     
  6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
