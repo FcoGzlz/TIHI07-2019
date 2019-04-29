@@ -340,7 +340,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
         # cd /var/lib/pgsql/9.6/data
        
-    6.6 Una vez en este directorio, utilizaremos el comando `ls`, que nos permite leer los archivos, y a continuarción utilizaremos un editor de texto (en este caso se utilizó el editor nano) para modificar el archivo **postgresql.conf**:
+    6.6 Una vez en este directorio, utilizaremos el comando `ls`, que nos permite leer los archivos, y a continuación utilizaremos un editor de texto (en este caso se utilizó el editor nano) para modificar el archivo **postgresql.conf**:
     
         # ls
         # nano postgresql.conf
@@ -350,7 +350,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     </p>
     
     
-    6.7 Una vez abierto el archivo, buscaremos la línea que diga **#listenaddress** y cambiaremos su valor por un `*`, nos quedaría así;
+    6.7 Una vez abierto el archivo, buscaremos la línea que diga **#listen_address** y cambiaremos su valor por `*`, nos quedaría así:
     
      <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PostgreConf/PostgreConf2.PNG"/>
@@ -372,15 +372,15 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
         # create user inacap with password "123456";
         
-    6.12 Para agregarle permisos de superusuario al usuario que hemos creado intoduciremos la syntaxis `alter user "nombre de usuario" superuser";`:
+    6.12 Para agregarle permisos de superusuario al usuario que hemos creado, intoduciremos la syntaxis `alter user "nombre de usuario" superuser";`:
     
-        # alter user inacap superusuario;
+        # alter user inacap superuser;
         
     6.13 Ahora crearemos una Base de Datos, para ello utilizaremos la syntaxis `create database "nombre de la base de datos";`:
     
         # create database inacap;
         
-    6.14 Por último, le daremos acceso a nuestro usuario a la Base de Datos que hemos creado con la syntaxis `grant all on database "nombre de la Base de Datos" to "nombre del usuario;`:
+    6.14 Por último, le daremos acceso a nuestro usuario a la Base de Datos que hemos creado con la syntaxis `grant all on database "nombre de la Base de Datos" to "nombre del usuario";`:
     
         # grant all on database inacap to inacap;
         
