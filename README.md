@@ -433,7 +433,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansPom.PNG"/>
     </p>
     
-  7.5 Una vez abierto **pom.xml** añadiremos el siguiente código, una vez añadido el código, daremos click sobre el archivo **pom.xml** y seleccionaremos **build**:
+  7.5 Una vez abierto **pom.xml** añadiremos el siguiente código:
   
         <dependencies>
                 <dependency>
@@ -443,6 +443,8 @@ Una vez completados los datos, presionaremos donde dice **Open**.
                 </dependency>
         </dependencies>
         
+   Una vez añadido el código, daremos click sobre el archivo **pom.xml** y seleccionaremos **build*:
+   
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansMavenCompleto.PNG"/>
    </p>
