@@ -1,5 +1,5 @@
 # TIHI07-2019
-###Autores: Gabriel Pelle - Francisco González
+### Autores: Gabriel Pelle - Francisco González
 ### **Introducción**
 Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en marcha de una "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir, luego se detallarà una guìa paso a paso, la cual cubrirá todos los puntos en la lista:
 1. [**Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal)**](#paso1)
