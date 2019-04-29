@@ -1,6 +1,7 @@
 # TIHI07-2019
 ### Autores: Gabriel Pelle - Francisco González
 ### **Introducción**
+
 Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en marcha de una "WorkStation". Para esto, nos guiaremos por la siguiente lista, la cual mostrará los cada uno de los puntos a seguir, luego se detallarà una guìa paso a paso, la cual cubrirá todos los puntos en la lista:
 1. [**Instalar en Visrtual Box el Sistema Operativo CentOS o Ubuntu (en este caso se utilizó CentOS 7,3 minimal)**](#paso1)
 2. [**Conectarse a la máquina virtual mediante el servicio SSH**](#paso2)
@@ -10,7 +11,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
 
-**Antes de comenzar, cave aclarar algunos puntos sobre esta guía:**
+**Antes de comenzar, es necesario aclarar algunos puntos sobre esta guía:**
 
 * Todos los comandos utilizados, se usan estando en el **Super Usuario** o **Usuario Root**.
 * A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el seguimiento de los pasos.
