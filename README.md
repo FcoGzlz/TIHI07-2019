@@ -8,6 +8,7 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 5. [**Instalar un IDE (en este caso se instaló NetBeans)**](#paso5)
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
+8. [**Pruebas**](#paso8)
 
 Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 
@@ -331,13 +332,60 @@ Una vez completados los datos, presionaremos donde dice **Open**.
        
         # /usr/pgsql-9.6/bin/postgresql96-setup initdb
         
-    6.4 Para finalizar, activaremos **Postgree** para que inicie con el sistema, para ello utilizaremos los siguientes comandos:
+    6.4 Activaremos **Postgree** para que inicie con el sistema, para ello utilizaremos los siguientes comandos:
     
         # systemctl enable postgresql-9.6.service
         # systemctl start postgresql-9.6.service
- 
-  
+        
+    6.5 Ahora configuraremos **Postgre** para permitir las conexiones remotas, para ello, ejecutaremos el siguiente comando, con el cual buscaremos el archivo a configurar:
     
+        # cd /var/lib/pgsql/9.6/data
+       
+    6.6 Una vez en este directorio, utilizaremos el comando `ls`, que nos permite leer los archivos, y a continuarción utilizaremos un editor de texto (en este caso se utilizó el editor nano) para modificar el archivo **postgresql.conf**:
+    
+        # ls
+        # nano postgresql.conf
+ 
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PostgreConf/PostgreConf.PNG"/>
+    </p>
+    
+    
+    6.7 Una vez abierto el archivo, buscaremos la línea que diga **#listenaddress** y cambiaremos su valor por un `*`, nos quedaría así;
+    
+     <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/PostgreConf/PostgreConf2.PNG"/>
+    </p>
+    
+    6.8 Una vez completado, guardaremos el los cambios presionando **Ctrl + O**, una vez guardados los cambios, saldremos del editor, presionando **Ctrl + X**, y reiniciaremos el servicio con el comando:
+    
+        # systemctl restart postgresql-9.6
+        
+    6.9 Ahora crearemos un **usuario Postgre**, para ello utlizaremos el comando:
+    
+        # su postgres
+        
+    6.10 Una vez ingresado el comando, introduciremos lo siguiente:
+    
+        # psql
+        
+    6.11 Cuando hayamos entrado al ambiente Postgre, crearemos un usuario con la syntaxis `create user "nombre de usuario" with password "contraseña del usuario";`:
+    
+        # create user inacap with password "123456";
+        
+    6.12 Para agregarle permisos de superusuario al usuario que hemos creado intoduciremos la syntaxis `alter user "nombre de usuario" superuser";`:
+    
+        # alter user inacap superusuario;
+        
+    6.13 Ahora crearemos una Base de Datos, para ello utilizaremos la syntaxis `create database "nombre de la base de datos";`:
+    
+        # create database inacap;
+        
+    6.14 Por último, le daremos acceso a nuestro usuario a la Base de Datos que hemos creado con la syntaxis `grant all on database "nombre de la Base de Datos" to "nombre del usuario;`:
+    
+        # grant all on database inacap to inacap;
+        
+    6.15 Ya tenemos un usuario y Base de Datos creados, para salir del ambiente postgre, presione **Ctrl + D**
 
    
    
