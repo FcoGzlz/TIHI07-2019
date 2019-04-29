@@ -8,7 +8,6 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 5. [**Instalar un IDE (en este caso se instaló NetBeans)**](#paso5)
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
-8. [**Pruebas**](#paso8)
 
 Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
 
