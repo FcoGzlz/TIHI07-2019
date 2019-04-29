@@ -385,6 +385,9 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         # grant all on database inacap to inacap;
         
     6.15 Ya tenemos un usuario y Base de Datos creados, para salir del ambiente postgre, presione **Ctrl + D**
+    
+    
+7. **Ejecutar pruebas de conexión** <a name = "paso7"></a>
 
    
    
