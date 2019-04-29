@@ -17,15 +17,17 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 
 **Activar virtualización**
 
-Para esto, debes acceder a la **BIOS** del sistema, una vez allí, seleccionar el apartado **Configuration**, dentro de este apartado, se encuentra la opción **Virtual Technology** la cual debe estar configurada como **Enable**. Estos pasos difieren según el modelo del ordenador, pero la clave de todo es encontrar la copción **Virtual Technology**, como se muestra en esta imágen:
+Para esto, debes acceder a la **BIOS** del sistema, una vez allí, seleccionar el apartado **Configuration**, dentro de este apartado, se encuentra la opción **Virtual Technology** la cual debe estar configurada como **Enable**. Estos pasos difieren según el modelo del ordenador, pero la clave de todo es encontrar la opción **Virtual Technology**, como se muestra en esta imágen:
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/BIOS/BIOS2.jpg"/>
  </p>
  
  Una vez verificada la **Virtualización**, puede proseguir con la guía.
+ 
     
 --------------------------------------------------------------------------------------------------------------------------------
+
 
 
 1. **Instalacion de CentOS en Máquina Virtual.**<a name ="paso1"></a>
@@ -103,7 +105,14 @@ Para esto, debes acceder a la **BIOS** del sistema, una vez allí, seleccionar e
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Mauina%20Virutal%20y%20PUTTY/VBIso.PNG"/>
     </p>
-
+    
+  1.9 Una vez montada la imágen, se procederá con la instalación del sistema, cave mencionar que para esta guía solo se utiliza el usuario **root**, por lo que no es necesario crear un otro usuario además de este.
+  
+  1.10 Una vez finalizada la instalación, nos aparecerá la terminal de **CentOS**, por lo que deberemos introducir nuestro usuario y contraseña: 
+  
+  <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/CENTOS/CentOSLogin.PNG"/>
+    </p>
 
 
 2. **Habilitar servicio SSH**<a name ="paso2"></a>
