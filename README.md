@@ -409,6 +409,43 @@ Una vez completados los datos, presionaremos donde dice **Open**.
     
 7. **Ejecutar pruebas de conexión** <a name = "paso7"></a>
 
+    7.1 Para esto, iniciaremos el ambiente gráfico `startx`, una vez inciado, presionaremos la a **tecla de inicio** o mejor conocida como **Windows** y buscaremos **NetBeans**, una vez encontrado, lo abriremos:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/BuscarNetBeans.PNG"/>
+    </p>
+    
+   7.2 Una vez abierto **NetBeans**, nos dirijiremos a **File**, **New Project**, seleccionaremos **Maven** y daremos **Next**:
+    
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansMaven.PNG"/>
+    </p>
+    
+   7.3 Ahora le pondremos un nombre a nuestro proyecto Maven, en nuestro caso, el nombre es **TestMaven**, una vez puesto el nombre, presionaremos **Finish**:
+   
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansNombreProyecto.PNG"/>
+    </p>
+    
+   7.4 Una vez creado el proyecto, presionaremos donde dice **TestMaven**, luego presionaremos donde dice **Project Files** y daremos doble click sobre **pom.xml**:
+   
+   <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansPom.PNG"/>
+    </p>
+    
+  7.5 Una vez abierto **pom.xml** añadiremos el siguiente código, una vez añadido el código, daremos click sobre el archivo **pom.xml** y seleccionaremos **build**:
+  
+        <dependencies>
+                <dependency>
+                        <goupId>org.postgresql</goupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>42.2.5</version>
+                </dependency>
+        </dependencies>
+        
+   <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansMavenCompleto.PNG"/>
+   </p>
    
    
   
