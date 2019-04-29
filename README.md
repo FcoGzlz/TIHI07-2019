@@ -259,8 +259,28 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/Gnome/GnomeResolucion.PNG"/>
     </p>
  
- 5. **Instalar un IDE (en este caso se instaló NetBeans)** <a name = "paso5"></a>
-    5.1 En Proceso, mas que eso, recibe un hueso .-.
+ 5. **Instalación de IDE (en este caso se instaló NetBeans)** <a name = "paso5"></a>
+    5.1 Por recomendación, ejecutaremos el ambiente gráfico que instalamos en el cuarto paso. Esto debido a que NetBeans se instalará mediante una **ventana de instalación**, para esto, utilizaremos el siguiente comando:
+    
+        # startx 
+        
+    5.2 Una vez estemos en el ambiente gráfico, arbiremos una terminal (click derecho en el escritrio y **abrir terminal**), luego verificaremos la versión de Java, la cual se instaló en el tercer paso de esta guía:
+    
+        # java -version
+        
+    5.3 Una vez verifiada la versión de java, la cual debería ser la 8, procederemos a descargar NetBeans:
+    
+        # wget http://download.netbeans.org/netbeans/8.0.1/final/bundles/netbeans-8.0.1-linux.sh
+        
+    5.4 Ahora crearemos un **package** para poder ejecutarlo:
+    
+        # chmod 700 netbeans-8.0.1-linux.sh
+        
+    5.5 Una vez creado el **package**, lo ejecutaremos:
+    
+        # ./netbeans-8.0.1-linux.sh
+        
+    5.6 Una vez introducido el comando anterior, se desplegará el instalador de **NetBeans**:
     
  6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
  
