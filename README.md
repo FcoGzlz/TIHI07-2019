@@ -282,6 +282,10 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         
     5.6 Una vez introducido el comando anterior, se desplegará el instalador de **NetBeans**:
     
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeans.jpg"/>
+    </p>
+    
  6. **Instalar Postgre SQL versión 9.6 o superior** <a name = "paso6"></a>
  
     6.1 Para comenzar, añadiremos el repositorio de **Postgre SQL 9.6** ya que en los repositorios oficiales, va en una versión anterior, para ello, ejecutaremos el comando:
