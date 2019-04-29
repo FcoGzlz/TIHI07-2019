@@ -9,19 +9,21 @@ Esta es una guía en la cual se explicarán los pasos a seguir para la puesta en
 6. [**Instalar Postgre SQL versión 9.6 o superioir**](#paso6)
 7. [**Crear un test Java para comprobar la conexión de la Base de Datos**](#paso7)
 
-Antes de comenzar, cave aclarar algunos puntos sobre esta guía:
+**Antes de comenzar, cave aclarar algunos puntos sobre esta guía:**
 
-* Todos los comandos utilizados, se usan estando en el **Super Usuario** o **usuario Root**.
+* Todos los comandos utilizados, se usan estando en el **Super Usuario** o **Usuario Root**.
 * A partir de la instalación del software **Putty**, podrás copiar y pegar los comandos, para facilitar el seguimiento de los pasos.
-* Es importante tener la **Virtualización activada** para poder virtualizar CentOS, si no estás seguro si tu ordenador tiene activada esta opción, puedes seguir los siguietes pasos, de lo contrario, puedes pasar directamente al primer paso de la guía.
+* Es importante tener la **Virtualización activada** para poder virtualizar CentOS, si no estás seguro si tu ordenador tiene activada esta opción, puedes seguir la siguiente indicación, de lo contrario, puedes pasar directamente al primer paso de la guía.
 
 **Activar virtualización**
 
-Para esto, debes acceder a la **BIOS** del sistema, una vez allí, seleccionar el apartado **Configuration**, dentro de este apartado, se encuentra la opción **Virtual Technology** la cual debe estar configurada como **Enable**:
+Para esto, debes acceder a la **BIOS** del sistema, una vez allí, seleccionar el apartado **Configuration**, dentro de este apartado, se encuentra la opción **Virtual Technology** la cual debe estar configurada como **Enable**. Estos pasos difieren según el modelo del ordenador, pero la clave de todo es encontrar la copción **Virtual Technology**, como se muestra en esta imágen:
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/BIOS/IMG_20190427_220556000.jpgG" width="900px" height="200px"/>
+        <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/BIOS/BIOS2.jpg"/>
  </p>
+ 
+ Una vez verificada la **Virtualización**, puede proseguir con la guía.
     
 --------------------------------------------------------------------------------------------------------------------------------
 
