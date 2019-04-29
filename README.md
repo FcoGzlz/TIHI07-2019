@@ -443,7 +443,7 @@ Una vez completados los datos, presionaremos donde dice **Open**.
                 </dependency>
         </dependencies>
         
-   Una vez añadido el código, daremos click sobre el archivo **pom.xml** y seleccionaremos **build*:
+   Una vez añadido el código, daremos click derecho sobre el archivo **pom.xml** y seleccionaremos **build*, esto descargará el  **Drive Manager** de **PostgreSql**:
    
    <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansMavenCompleto.PNG"/>
