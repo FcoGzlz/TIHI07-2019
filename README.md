@@ -293,13 +293,13 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansLicencia2.jpg"/>
     </p>
     
-    5.8 Lo siguiente es seleccionar la versión de **JDK** a utilizar, por lo que seleccionremos la que aparece en la imágen, en aso de que no salga esta versión, podemos seleccionar la que en su nombre incluya la palabra **default**, luego de seleccionar, presionaremos **Next**:
+    5.8 Lo siguiente es seleccionar la versión de **JDK** a utilizar, por lo que seleccionremos la que aparece en la imágen, en caso de que no salga esta versión, podemos seleccionar la que en su nombre incluya la palabra **default**, luego de seleccionar, presionaremos **Next**:
     
     <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansJava.jpg"/>
     </p>
     
-    5.8 A continuación, se instala el servidor **GlasFish**, por lo que no cambiaremos nada, solamente presionaremos **Next**:
+    5.8 A continuación, se instala el servidor **GlassFish**, por lo que no cambiaremos nada, solamente presionaremos **Next**:
     
     <p align="center">
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/NetBeans/NetBeansGlassfish.jpg"/>
