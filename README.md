@@ -451,5 +451,89 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         <img src="https://raw.githubusercontent.com/FcoGzlz/TIHI07-2019/master/Maven/NetBeansMavenCompleto.PNG"/>
    </p>
    
+   7.6 Ahora haremos una prueba de connexion a la base de datos, para lo cual crearemos un nuevo proyecto en netbeans, para eso vamos a **File**, **New Project**, **Java**, **Java Application** y colocaremos un nombre cualquiera. Ocupando este codigo:
    
+        
+
+        import java.sql.Connection;
+        import java.sql.DriverManager;
+        import java.sql.ResultSet;
+        import java.sql.SQLException;
+        import java.sql.Statement;
+
+        /**
+         * @author imssbora
+         */
+        public class JDBCExample {
+          public static void main(String[] args) {
+
+    String jdbcUrl = "jdbc:postgresql://localhost:5432/BORAJI";
+    String username = "postgres";
+    String password = "admin";
+
+    Connection conn = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+    try {
+      // Step 1 - Load driver
+     // Class.forName("org.postgresql.Driver"); // Class.forName() is not needed since JDBC 4.0
+
+      // Step 2 - Open connection
+      conn = DriverManager.getConnection(jdbcUrl, username, password);
+
+      // Step 3 - Execute statement
+      stmt = conn.createStatement();
+      rs = stmt.executeQuery("SELECT version()");
+
+      // Step 4 - Get result
+      if (rs.next()) {
+        System.out.println(rs.getString(1));
+      }
+
+    } catch (SQLException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    } finally {
+      try {
+
+        // Step 5 Close connection
+        if (stmt != null) {
+          stmt.close();
+        }
+        if (rs != null) {
+          rs.close();
+        }
+        if (conn != null) {
+          conn.close();
+        }
+      } catch (Exception e) {
+        e.printStackTrace();
+      }
+    }
+
+          }
+        }
+
+   
+   7.7 Una vez copiado el codigo, en la variable **"jdbcUrl"** cambiaremos la direccion por lo siguiente:
+   
+         String jdbcUrl = "jdbc:postgresql://localhost:5432/inacap";
   
+   **"inacap"** es la base de datos que creamos anteriormente.
+   
+   7.8 Y para las variables **"username"** y **"password"** cambiaremos los datos a los siguientes:
+   
+        String username = "inacap";
+        String password = "123456";
+        
+   Estos datos, son el usuario y contraseña que creamos anteriormente.
+   
+   7.9 Una vez listo le daremos a **"Run"** y el output nos deberia mostrar la version de PostgreSQL:
+   
+   <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/NetBeans/Prueba%20de%20Conexi%C3%B3n.PNG"/>
+   </p>
+   
+   
