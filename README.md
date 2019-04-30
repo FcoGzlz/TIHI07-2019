@@ -408,6 +408,21 @@ Una vez completados los datos, presionaremos donde dice **Open**.
         
     6.15 Ya tenemos un usuario y Base de Datos creados, para salir del ambiente postgre, presione **Ctrl + D**
     
+    6.16 Ahora cambiaremos el archivo **"pg_hba.conf"**, con el comando:
+    
+        # nano ./var/lib/pgsql/9.6/data/pg_hba.conf
+    
+    6.17 Luego les aparecera el archivo para editar y cambiaran las siguientes lineas **ipv4 local connections** y **ipv6 local connections**, cambiaremos los parametros **ident** por **md5**:
+    
+    Presionaremos **"Ctrl + O"** para guardar y **"Ctrl + X"** para salir.
+    
+       <p align="center">
+        <img src="https://github.com/FcoGzlz/TIHI07-2019/blob/master/PostgreConf/HBA.PNG"/>
+        </p>
+        
+    6.18 Para terminar reiniciaremos el servicio con el comando:
+    
+        # systemctl restart postgresql-9.6
     
 7. **Ejecutar pruebas de conexión** <a name = "paso7"></a>
 
